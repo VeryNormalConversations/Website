@@ -138,7 +138,7 @@ html, body {
     animation-fill-mode: forwards;
 }
 
-#chopperpics{
+.chopperpics{
     height: 200px;
     width: auto ;
     border-radius: 10px;
