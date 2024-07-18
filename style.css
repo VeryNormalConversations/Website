@@ -139,10 +139,21 @@ html, body {
 }
 
 .chopperpics{
+    opacity: 0;
     height: 200px;
     width: auto ;
     border-radius: 10px;
     position: relative;
     margin-top: 300px;
     margin-left: 50px;
+    animation: appbutton;
+    animation-duration: 1.3s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+
+
+}
+
+#chopbottom{
+    margin-top: 45px;
 }
