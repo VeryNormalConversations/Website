@@ -110,6 +110,7 @@ html, body {
     width: 100%; /* Occupy full width of the parent */
     text-align: center; /* Center text within the div */
 }
+
 .applytxt {
     font-family: 'Comfortaa', sans-serif;
     color: #fff;
@@ -117,10 +118,9 @@ html, body {
     text-decoration: none; /* Remove default link underline */
 }
 
-
 .appbutton {
     opacity: 0;
-    width: 180px;
+    width: 200px;
     height: 70px;
     background-color: #1e1e2e;
     border: 2px solid #313244;
@@ -136,4 +136,13 @@ html, body {
     animation-duration: 1.3s;
     animation-delay: 0.9s;
     animation-fill-mode: forwards;
+}
+
+#chopperpics{
+    height: 200px;
+    width: auto ;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 300px;
+    margin-left: 50px;
 }
